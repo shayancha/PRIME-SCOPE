@@ -6,8 +6,8 @@
 // #define KABYLAKE12
 // #define KABYLAKE16
 // #define COFFEELAKE12
-// #define SKYLAKE16
-#define SKYLAKE12
+#define SKYLAKE16
+// #define SKYLAKE12
 // #define HASWELL16
 // #define HASWELL12
 // #define IVYBRIDGE16
