@@ -66,25 +66,45 @@ void traverse_Intel_Core_i5_7500 (uint64_t* arr) {
 
 // 2015 | Skylake      | Inclusive LLC with 16 Ways | 3 Repeats
 void traverse_Intel_Core_i7_6700 (uint64_t* arr) {
-  int i;
-  for(i=0; i<13; i+=4) {
-    maccess((void *) arr[i+0]);
-    maccess((void *) arr[i+1]);
-    maccess((void *) arr[  0]);
-    maccess((void *) arr[  0]);
-    maccess((void *) arr[i+2]);
-    maccess((void *) arr[  0]);
-    maccess((void *) arr[  0]);
-    maccess((void *) arr[i+3]);
-    maccess((void *) arr[i+0]);
-    maccess((void *) arr[i+1]);
-    maccess((void *) arr[i+2]);
-    maccess((void *) arr[i+3]);
-    maccess((void *) arr[i+0]);
-    maccess((void *) arr[i+1]);
-    maccess((void *) arr[i+2]);
-    maccess((void *) arr[i+3]);
-  }
+  // int i;
+  // for(i=0; i<13; i+=4) {
+  //   maccess((void *) arr[i+0]);
+  //   maccess((void *) arr[i+1]);
+  //   maccess((void *) arr[  0]);
+  //   maccess((void *) arr[  0]);
+  //   maccess((void *) arr[i+2]);
+  //   maccess((void *) arr[  0]);
+  //   maccess((void *) arr[  0]);
+  //   maccess((void *) arr[i+3]);
+  //   maccess((void *) arr[i+0]);
+  //   maccess((void *) arr[i+1]);
+  //   maccess((void *) arr[i+2]);
+  //   maccess((void *) arr[i+3]);
+  //   maccess((void *) arr[i+0]);
+  //   maccess((void *) arr[i+1]);
+  //   maccess((void *) arr[i+2]);
+  //   maccess((void *) arr[i+3]);
+  // }
+
+  maccess((void *) arr[0x16]);
+  maccess((void *) arr[0x3c]);
+  maccess((void *) arr[0xc]);
+  maccess((void *) arr[0x20]);
+  maccess((void *) arr[0x21]);
+  maccess((void *) arr[0x40]);
+  maccess((void *) arr[0x2e]);
+  maccess((void *) arr[0x19]);
+  maccess((void *) arr[0x1b]);
+  maccess((void *) arr[0x3e]);
+  maccess((void *) arr[0x41]);
+  maccess((void *) arr[0x26]);
+  maccess((void *) arr[0xd]);
+  maccess((void *) arr[0x43]);
+  maccess((void *) arr[0x28]);
+  maccess((void *) arr[0x27]);
+  maccess((void *) arr[0x12]);
+  maccess((void *) arr[0x19]);
+  maccess((void *) arr[0x24]);	
 }
 
 // 2015 | Skylake      | Inclusive LLC with 12 Ways | 4 Repeats
