@@ -108,24 +108,46 @@ void traverse_Intel_Core_i7_6700 (uint64_t* arr) {
   // maccess((void *) arr[0x24]);
 
   // prime pattern from brrip training with address space 0-15 (hasn't fully converged)
-     maccess((void *) arr[0xf]);
-     maccess((void *) arr[0xd]);
-     maccess((void *) arr[0xb]);
-     maccess((void *) arr[0xc]);
-     maccess((void *) arr[0x7]);
-     maccess((void *) arr[0x5]);
-     maccess((void *) arr[0x2]);
-     maccess((void *) arr[0x9]);
-     maccess((void *) arr[0x4]);
-     maccess((void *) arr[0x6]);
-     maccess((void *) arr[0x1]);
-     maccess((void *) arr[0xa]);
-     maccess((void *) arr[0x0]);
-     maccess((void *) arr[0xe]);
-     maccess((void *) arr[0xc]);
-     maccess((void *) arr[0x3]);
-     maccess((void *) arr[0xf]);
-     maccess((void *) arr[0x7]);
+  // maccess((void *) arr[0xf]);
+  // maccess((void *) arr[0xd]);
+  // maccess((void *) arr[0xb]);
+  // maccess((void *) arr[0xc]);
+  // maccess((void *) arr[0x7]);
+  // maccess((void *) arr[0x5]);
+  // maccess((void *) arr[0x2]);
+  // maccess((void *) arr[0x9]);
+  // maccess((void *) arr[0x4]);
+  // maccess((void *) arr[0x6]);
+  // maccess((void *) arr[0x1]);
+  // maccess((void *) arr[0xa]);
+  // maccess((void *) arr[0x0]);
+  // maccess((void *) arr[0xe]);
+  // maccess((void *) arr[0xc]);
+  // maccess((void *) arr[0x3]);
+  // maccess((void *) arr[0xf]);
+  // maccess((void *) arr[0x7]);
+
+  // prime pattern for plru training with l3 block size 64
+     maccess((void *) arr[7]);
+     maccess((void *) arr[12]);
+     maccess((void *) arr[11]);
+     maccess((void *) arr[15]);
+     maccess((void *) arr[9]);
+     maccess((void *) arr[4]);
+     maccess((void *) arr[10]);
+     maccess((void *) arr[3]);
+     maccess((void *) arr[5]);
+     maccess((void *) arr[2]);
+     maccess((void *) arr[8]);
+     maccess((void *) arr[1]);
+     maccess((void *) arr[14]);
+     maccess((void *) arr[12]);
+     maccess((void *) arr[0]);
+     maccess((void *) arr[7]);
+     maccess((void *) arr[13]);
+     maccess((void *) arr[6]);
+     maccess((void *) arr[11]);
+     maccess((void *) arr[4]); 
 }
 
 // 2015 | Skylake      | Inclusive LLC with 12 Ways | 4 Repeats
